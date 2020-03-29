@@ -54,3 +54,8 @@
 /**
  * 5. Represent addition modulo 3 as a monoid category.
  **/
+//Single object category (C) where the Object is the Type Natural non-negative numbers.
+//Hom-set of C is:
+// f x = (x + 0) % 3 = x % 3 -> Identity
+// g x = (x + 1) % 3
+// h x = (x + 2) % 3
